@@ -1,0 +1,17 @@
+package human;
+
+public class Earth {
+	public static void main(String args []) {
+		
+		human mark;
+		mark = new human();
+		mark.age =18;
+		mark.gender = "male";
+		mark.eyeColor = "brown";
+		mark.name = "Mark Sheku Omaru";
+		mark.heightInInches= 89;
+		mark.speak();
+	}
+	
+
+}
